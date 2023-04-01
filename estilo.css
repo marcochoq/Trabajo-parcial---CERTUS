@@ -20,6 +20,7 @@ header {
 /* Estilo del encabezado */
 header h1 {
   font-size: 3em;
+  font-family: Arial, sans-serif;
   margin: 0;
 }
 
@@ -112,4 +113,156 @@ img {
   border: none;
   border-radius: 5px; /*se agrega un borde al boton*/
   cursor: pointer;/*cursor del mouse cambie a una mano al pasar sobre el botón*/
+}
+
+.contact__form {
+  display: grid;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact__form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.form-group {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-select {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+textarea {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px; /*se agrega un borde al boton*/
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2E8B57;
+
+}
+
+#ubicanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    padding: 50px;
+  margin-top: 50px;
+}
+
+#ubicanos p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#ubicanos iframe {
+  margin-top: 20px;
+}
+
+/*volver al incio, estilo*/
+.nav__link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav__link:hover {
+  background-color: #2E8B57;
+}
+
+
+/* Estilos de navegación */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0077b6;
+}
+
+
+/* Estilos de botón */
+.nav-btn {
+  background-color: #0077b6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #00669c;
 }
